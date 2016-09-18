@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="//favicon.png">
+  
+  <script src="/style.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+      <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img src="null" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Niki Lee</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">NikiLee&#39;s Blog</p>
+		
+
+		<nav class="header-menu">
+			<ul>
+			
+				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/tags/随笔">随笔</a></li>
+	        
+			</ul>
+		</nav>
+		<nav class="header-smart-menu">
+	        
+    		
+    			
+    			<a class="js-smart-menu" data-idx="0" href="javascript:void(0)">所有文章</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="1" href="javascript:void(0)">标签</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="2" href="javascript:void(0)">友链</a>
+    			
+    			
+            
+    			
+    			<a class="js-smart-menu" data-idx="3" href="javascript:void(0)">关于我</a>
+    			
+    			
+            
+		</nav>
+		<nav class="header-nav">
+			<div class="social">
+				
+					<a class="github" target="_blank" href="#" title="github">github</a>
+		        
+					<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+		        
+					<a class="rss" target="_blank" href="#" title="rss">rss</a>
+		        
+					<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+		        
+			</div>
+		</nav>
+	</header>		
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"><i class="icon-list"></i></div>
+  		<h1 class="header-author js-mobile-header hide">Niki Lee</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				
+					<img src="null" class="js-avatar">
+				
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Niki Lee</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">NikiLee&#39;s Blog</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/tags/随笔">随笔</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="#" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="#" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap">
+        
+  
+    <article id="[layout]-css3滤镜" class="article article-type-[layout]" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/17/css3滤镜/">css3滤镜</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>css3有一些滤镜挺有意思的，也很简单，遂学习一下，但一般会用得比较少，我们都直接切图了。<br>这些滤镜主要都是都图片效果的处理，样式属性值中一般使用一个数值或数值百分比作为参数。我们用两张照片做对比看滤镜的效果。</p>
+<h2 id="1、grayscale-灰度滤镜"><a href="#1、grayscale-灰度滤镜" class="headerlink" title="1、grayscale(灰度滤镜)"></a>1、grayscale(灰度滤镜)</h2><p>彩色图像转为灰度图像</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.grayscale&#123;</div><div class="line"></div><div class="line">    filter:grayscale(100%);</div><div class="line"></div><div class="line">    -webkit-filter: grayscale(100%);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><img src="http://www.w3cmark.com/uploads/18461472953767.png"> </p>
+<h2 id="2、sepia-老照片效果"><a href="#2、sepia-老照片效果" class="headerlink" title="2、sepia(老照片效果)"></a>2、sepia(老照片效果)</h2><p>彩色图像添加一层褐色色调，呈现老照片效果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.sepia&#123;</div><div class="line"></div><div class="line">    filter:sepia(100%);</div><div class="line"></div><div class="line">    -webkit-filter:sepia(100%);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/38231472953767.png"> </p>
+<h2 id="3、saturate-饱和度滤镜"><a href="#3、saturate-饱和度滤镜" class="headerlink" title="3、saturate(饱和度滤镜)"></a>3、saturate(饱和度滤镜)</h2><p>让色彩更加鲜明<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.saturate&#123;</div><div class="line"></div><div class="line">    filter:saturate(250%);</div><div class="line"></div><div class="line">    -webkit-filter:saturate(250%);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/84931472953767.png" alt=""></p>
+<h2 id="4、hue-rotate-滤镜"><a href="#4、hue-rotate-滤镜" class="headerlink" title="4、hue-rotate 滤镜"></a>4、hue-rotate 滤镜</h2><p>这个滤镜比较特殊，将图像中所有颜色沿光环旋转一个角度。参数也是使用角度值。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.hue-rotate&#123;</div><div class="line"></div><div class="line">    filter:hue-rotate(90deg);</div><div class="line"></div><div class="line">    -webkit-filter:hue-rotate(90deg);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/24451472953767.png" alt=""></p>
+<h2 id="5、invert-颜色翻转滤镜"><a href="#5、invert-颜色翻转滤镜" class="headerlink" title="5、invert (颜色翻转滤镜)"></a>5、invert (颜色翻转滤镜)</h2><p>定义图像颜色的翻转程度，当参数100%时为反相效果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.invert&#123;</div><div class="line"></div><div class="line">    filter:invert(100%);</div><div class="line"></div><div class="line">    -webkit-filter:invert(100%);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/11511472953767.png" alt=""></p>
+<h2 id="6、opacity-透明度滤镜"><a href="#6、opacity-透明度滤镜" class="headerlink" title="6、opacity (透明度滤镜)"></a>6、opacity (透明度滤镜)</h2><p>透明度效果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.opacity&#123;</div><div class="line"></div><div class="line">    filter:opacity(50%);</div><div class="line"></div><div class="line">    -webkit-filter:opacity(50%);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/87381472953767.png" alt=""></p>
+<h2 id="7、blur-模糊滤镜"><a href="#7、blur-模糊滤镜" class="headerlink" title="7、blur (模糊滤镜)"></a>7、blur (模糊滤镜)</h2><p>类似于在图像上加上一层玻璃遮罩，使图像具有一种烟雾效果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.blur&#123;</div><div class="line"></div><div class="line">    filter:blur(2px);</div><div class="line"></div><div class="line">    -webkit-filter:blur(2px);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/24371472953767.png" alt=""></p>
+<h2 id="8、contrast-对比度滤镜"><a href="#8、contrast-对比度滤镜" class="headerlink" title="8、contrast (对比度滤镜)"></a>8、contrast (对比度滤镜)</h2><p>提高图像亮度，可以在全黑与原图亮度之间调整图像的对比度<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.contrast&#123;</div><div class="line"></div><div class="line">    filter:contrast(200%);</div><div class="line"></div><div class="line">    -webkit-filter:contrast(200%);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/79761472953768.png" alt=""></p>
+<h2 id="9、drop-shadow-阴影滤镜"><a href="#9、drop-shadow-阴影滤镜" class="headerlink" title="9、drop-shadow (阴影滤镜)"></a>9、drop-shadow (阴影滤镜)</h2><p>给图像加上一层阴影效果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">.drop-shadow&#123;</div><div class="line"></div><div class="line">    filter:drop-shadow(4px -4px 6px purple);</div><div class="line"></div><div class="line">    -webkit-filter:drop-shadow(4px -4px 6px purple);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p><img src="http://www.w3cmark.com/uploads/71561472953768.png" alt=""></p>
+<p>转载至 <a href="http://www.w3cmark.com/2016/500.html" target="_blank" rel="external">http://www.w3cmark.com/2016/500.html</a></p>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      <a href="/2016/09/17/css3滤镜/" class="archive-article-date">
+  	<time datetime="2016-09-17T08:16:35.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-17</time>
+</a>
+      
+      
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+  
+    <article id="[layout]-Nodejs学习笔记" class="article article-type-[layout]" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/14/Nodejs学习笔记/">#NodeJS学习教程1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      <a href="/2016/09/14/Nodejs学习笔记/" class="archive-article-date">
+  	<time datetime="2016-09-14T07:46:32.000Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-14</time>
+</a>
+      
+      
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/14/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      <a href="/2016/09/14/hello-world/" class="archive-article-date">
+  	<time datetime="2016-09-14T07:40:20.922Z" itemprop="datePublished"><i class="icon-clock"></i>2016-09-14</time>
+</a>
+      
+      
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 Niki Lee
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    <script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: true,
+		isPost: false,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false,
+		root: "/"
+	}
+</script>
+
+<script src="/main.js"></script>
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+    
+<div class="tools-col">
+  <ul class="btn-wrap">
+    
+      <li class="chose" data-hook="tools-section-all"><span class="text">全部</span><i class="icon-book"></i></li>
+    
+    
+      <li data-hook="tools-section-tag"><span class="text">标签</span><i class="icon-price-tags"></i></li>
+    
+    
+      <li data-hook="tools-section-friends"><span class="text">友链</span><i class="icon-link"></i></li>
+    
+    
+      <li data-hook="tools-section-me"><span class="text">我</span><i class="icon-smile"></i></li>
+    
+  </ul>
+  <div class="tools-wrap">
+    
+    	<section class="tools-section tools-section-all chose">
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-tag">
+    			<div class="widget tagcloud" id="js-tagcloud">
+    				
+    			</div>
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-friends">
+  		
+  			<div class="friends-wrap" id="js-friends">
+  			
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接1</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接2</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接3</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接4</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接5</a>
+  	        
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接6</a>
+  	        
+  	        </div>
+  		
+    	</section>
+    
+
+    
+    	<section class="tools-section tools-section-me">
+  	  	
+  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  	
+    	</section>
+    
+  </div>
+  
+</div>
+  </div>
+</body>
+</html>
